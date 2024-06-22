@@ -1,3 +1,4 @@
+import  { useState } from 'react';
 import { IoPeopleOutline , IoLocationOutline, IoBagHandleOutline, IoCalendarOutline } from 'react-icons/io5';
 
 type HoveredCard = 'card1' | 'card2' | 'card3' | 'card4' | null;
