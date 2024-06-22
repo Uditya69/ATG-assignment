@@ -1,7 +1,13 @@
 import "./App.css";
-
+import {Header,Homescreen,Footer} from "./components/index"
 function App() {
-  return <div className="text md">Hello World</div>;
+  return (
+    <div className="">
+      <Header />
+      <Homescreen />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
