@@ -43,9 +43,9 @@ function Hero() {
         <div className="order-2 lg:order-3 lg:w-1/3 mt-8 ml-2 lg:mt-0">
           <Auth />
           {/* Images (small screens) */}
-          <div className="flex flex-row justify-center lg:hidden mt-4">
-            <img src={pic2} alt="pic2" className="w-64 h-auto" />
-            <img src={pic1} alt="pic1" className="w-64 h-auto" />
+          <div className="flex flex-row justify-center lg:hidden overflow-hidden mt-4">
+            <img src={pic2} alt="pic2" className="w-60 h-auto " />
+            <img src={pic1} alt="pic1" className="w-60 h-auto" />
           </div>
         </div>
       </div>

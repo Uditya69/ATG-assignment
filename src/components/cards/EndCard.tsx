@@ -4,10 +4,10 @@ function EndCard() {
   return (
     <div className=" flex flex-col gap-[5vh] p-5 items-center bg-sky-50">
       <div className=" flex flex-col gap-[3vh] self-start">
-        <p className=" flex flex-row gap-1 text-2xl italic font-semibold">
-          Your <p className="text-purple-600"> Hobby</p>, Your{" "}
-          <p className="text-blue-600">Community...</p>
-        </p>
+        <div className=" gap-1 text-2xl italic font-semibold">
+          Your <span className="text-purple-600"> Hobby</span>, Your{" "}
+          <span className="text-blue-600">Community...</span>
+        </div>
         <button
           className="px-4 py-2 w-fit rounded-md bg-purple-600 text-white font-semibold
         "

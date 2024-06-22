@@ -14,7 +14,7 @@ import {
 function Header() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
-      <Container fluid className="w-full px-5 py-1">
+      <Container fluid className="w-full md:px-5 lg:px-5  px-2 py-1">
         <Navbar.Brand href="#home">
           <img
             src={Logo}
