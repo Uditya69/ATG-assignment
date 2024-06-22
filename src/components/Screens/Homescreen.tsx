@@ -1,4 +1,4 @@
-import {AddYour, EndCard, Feature, Hero, Testimonial,} from "../index"
+import {AddYour, EndCard, Feature, Hero, ScrollTop, Testimonial,} from "../index"
 
 function Homescreen() {
   return (
@@ -8,6 +8,7 @@ function Homescreen() {
         <AddYour/>
         <Testimonial/>
         <EndCard/>
+        <ScrollTop/>
     </div>
   )
 }
