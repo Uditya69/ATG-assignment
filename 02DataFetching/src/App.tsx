@@ -1,15 +1,12 @@
-
-import './App.css'
+import "./App.css";
+import HomeScreen from "./components/HomeScreen/HomeScreen";
 
 function App() {
-
   return (
-    
-    <div>
-      <p className=''> Hello World</p>
+    <div className="">
+        <HomeScreen/>
     </div>
-    
-  )
+  );
 }
 
-export default App
+export default App;
